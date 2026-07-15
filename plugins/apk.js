@@ -80,7 +80,7 @@ ${i + 1}. ${v.name}
 handler.help = ["apk"];
 handler.tags = ["downloader"];
 handler.command = /^(apk)$/i;
-handler.limit = true;
+handler.limit = false;
 
 export default handler;
 
